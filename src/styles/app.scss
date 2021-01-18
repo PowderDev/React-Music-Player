@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3{
+    color: rgb(54,54,54)
+}
+body{
+    font-family: 'PT Serif', sans-serif;
+}
+
+.App{
+    transition: all .4s ease
+}
+
+@import './player';
+@import './song';
+@import './_library';
+@import './nav';
+
+
+
